@@ -1,0 +1,116 @@
+ <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+         <ScrollView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <LinearLayout
+                 android:layout_margin="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:textStyle="bold"
+                     android:id="@+id/dev"
+                     android:layout_marginTop="30dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Mobile Apps Development"
+                     android:textColor="@color/black"
+                     android:textSize="25dp" />
+
+                 <RadioGroup
+                     android:id="@+id/appradiogroup"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp">
+                     <RadioButton
+                         android:buttonTint="@color/your_color"
+                         android:id="@+id/web"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentStart="true"
+                         android:layout_alignParentTop="true"
+                         android:layout_marginTop="20dp"
+                         android:text="@string/text_app"
+                         android:textColor="@color/black"
+                         android:textSize="20dp" />
+                     />
+                     <RadioButton
+                         android:buttonTint="@color/your_color"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignStart="@+id/web"
+                         android:layout_marginBottom="5dp"
+                         android:text="@string/text_app1"
+                         android:textColor="@color/black"
+                         android:textSize="20dp"/>
+                     <RadioButton
+                         android:buttonTint="@color/your_color"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_centerHorizontal="true"
+                         android:text="@string/text_app2"
+                         android:textColor="@color/black"
+                         android:textSize="20dp"/>
+                 </RadioGroup>
+                 <TextView
+                     android:layout_marginTop="30dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/text_additional"
+                     android:textColor="@color/black"
+                     android:textSize="25dp"
+                     android:textStyle="bold"/>
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignParentEnd="true"
+                         android:layout_marginTop="5dp"
+                         android:text="@string/text_purchase"
+                         android:textColor="@color/black"
+                         android:textSize="20dp" />
+                     />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignParentEnd="true"
+                         android:layout_marginTop="5dp"
+                         android:text="@string/text_web_service"
+                         android:textColor="@color/black"
+                         android:textSize="20dp" />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignParentEnd="true"
+                         android:layout_marginTop="5dp"
+                         android:text="@string/text_game"
+                         android:textColor="@color/black"
+                         android:textSize="20dp"/>
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignParentEnd="true"
+                         android:layout_marginTop="5dp"
+                         android:text="@string/text_complete"
+                         android:textColor="@color/black"
+                         android:textSize="20dp"/>
+
+             </LinearLayout>
+
+         </ScrollView>
+
+
+
+</LinearLayout>

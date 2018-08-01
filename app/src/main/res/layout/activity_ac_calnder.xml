@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcCalnder"
+    android:orientation="vertical"
+    android:background="@drawable/servbg">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcredits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00283a"
+        android:gravity="top"
+        android:minHeight="50dp"
+        app:theme="@style/ToolbarStyle"
+        app:titleMarginTop="@dimen/margin_to_center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mansopresk"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"/></android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/datetime"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule your service"/>
+
+        <LinearLayout
+
+            android:id="@+id/calendarll"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+
+            <Button
+                android:id="@+id/calendarbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="calender"
+                />
+
+            <EditText
+                android:singleLine="true"
+                android:id="@+id/etcalender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:hint="mm/dd/yyyy"
+                android:editable="false"
+                android:onClick="calender"
+
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+        <Spinner
+
+            android:singleLine="true"
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/TimeSlots"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+        </Spinner>
+        <Button
+
+            android:background="@drawable/background"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:textColor="#fff"
+
+            android:id="@+id/calnderok"/>
+    </LinearLayout>
+    </LinearLayout>
+
+

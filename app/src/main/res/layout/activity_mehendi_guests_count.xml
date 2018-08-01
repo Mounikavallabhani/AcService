@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/servbg">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcredits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00283a"
+        android:gravity="top"
+        android:minHeight="50dp"
+        app:theme="@style/ToolbarStyle"
+        app:titleMarginTop="@dimen/margin_to_center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mansopresk"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"/></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/mehnocountll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:text="For number of people"/>
+        <RadioGroup
+            android:id="@+id/rgmehguestcount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:textColor="#000"
+                android:padding="20dp"
+                android:text="2-5 people"/>
+            <RadioButton
+
+                android:buttonTint="@color/your_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:padding="20dp"
+                android:textColor="#000"
+                android:text="5-10 people"/>
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:padding="20dp"
+                android:textColor="#000"
+                android:text="10-20 people"/>
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:padding="20dp"
+                android:textColor="#000"
+                android:text="More than 20 people"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

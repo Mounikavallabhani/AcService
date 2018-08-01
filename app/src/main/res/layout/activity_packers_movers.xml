@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/servbg"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcredits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00283a"
+        android:gravity="top"
+        android:minHeight="50dp"
+        app:theme="@style/ToolbarStyle"
+        app:titleMarginTop="@dimen/margin_to_center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mansopresk"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"/></android.support.v7.widget.Toolbar>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <RadioGroup
+            android:id="@+id/radiogroupoverhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp">
+
+
+
+
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:id="@+id/packersradiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="1 Bhk "
+                android:textSize="20dp" />
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:id="@+id/overcost1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="2 Bhk"
+                android:textSize="20dp" />
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:id="@+id/overcost3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="3Bhk"
+                android:textSize="20dp" />
+            <RadioButton
+                android:buttonTint="@color/your_color"
+
+                android:id="@+id/overcost2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Villa"
+                android:textSize="20dp" />
+            <RadioButton
+                android:buttonTint="@color/your_color"
+                android:id="@+id/overcost4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Office"
+                android:textSize="20dp" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/packers_schedule_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schedule your service"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/calendarbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                    />
+
+                <EditText
+                    android:onClick="carcalender"
+                    android:singleLine="true"
+                    android:id="@+id/edit_text_Packers_calender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="mm/dd/yyyy"
+                    android:editable="false"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:singleLine="true"
+                android:id="@+id/packers_spinner"
+                android:layout_width="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/TimeSlots"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp">
+
+            </Spinner>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/packerscontent"
+
+            android:padding="20dp"
+            android:layout_margin="40dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/rectanglebox"
+            android:hint="Leave your discription"
+            android:gravity="start"/>
+        <Button
+
+
+            android:id="@+id/pandmsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:background="@drawable/background"
+            android:text="submit"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

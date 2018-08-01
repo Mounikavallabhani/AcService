@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which Service Do You  Require?"
+                    android:textSize="20dp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp">
+
+
+
+                    <RadioButton
+                        android:layout_marginTop="25dp"
+                        android:id="@+id/acrepair"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/visiting"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs. 0"
+                        android:textSize="20dp"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/visiting1"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/visiting2"
+                        android:textSize="20dp"
+                        />
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView1"
+                        android:layout_marginTop="10dp"
+                        android:background="#b3afaf" />
+
+
+                    <RadioButton
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/acwetservicing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Wet Servicing"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wet1"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wet2"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wet3"
+                        android:textSize="20dp"
+                        />
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView1"
+                        android:layout_marginTop="10dp"
+                        android:background="#b3afaf" />
+
+
+                    <RadioButton
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/acinstallation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Installation"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/installation"
+                        android:textSize="20dp"
+                        />
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView1"
+                        android:layout_marginTop="10dp"
+                        android:background="#b3afaf" />
+
+                    <RadioButton
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/acuninstallation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="unistallation"
+                        android:textSize="20dp"/>
+
+
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView1"
+                        android:layout_marginTop="10dp"
+                        android:background="#b3afaf" />
+                    <RadioButton
+
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/acgascharging"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Gas charging"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gascharging1"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gascharging2"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gascharging3"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gascharging4"
+                        android:textSize="20dp"
+                        />
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textView1"
+                        android:layout_marginTop="10dp"
+                        android:background="#b3afaf" />
+
+
+
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

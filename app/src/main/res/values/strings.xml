@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Manso Service</string>
+    <string name="wetservicing1">Gas pressure will be checked before start of the service</string>
+    <string name="wetservicing2">Filter,drain pipe and outer panel will be cleaned</string>
+    <string name="wetservicing3">Cooling coils and condenser coilswill be cleaned </string>
+
+    <string name="wetservicing6">Performance of the AC will be checked post service</string>
+    <string name="wetservicing7">Cooling of the AC depends on multiple factors such as age of the AC,quality of the gas filled,pressure of the gas etc.,and Servicing alone does not guarantee improvement in the cooling</string>
+
+    <string name="wetservicing11">Outdoor unit will be checked for any debris, and it will be cleaned</string>
+    <string name="wetservicing12"> </string>
+
+
+    <string name="visiting">AC repair - Rs.0 Visiting Charge</string>
+    <string name="visiting1">.&amp;Complete diagnosis and repair</string>
+    <string name="visiting2">Final charges based on inspections</string>
+
+    <string name="wet1">Deep Cleaning the AC for fresh air</string>
+    <string name="wet2">Filter,coils etc. cleaned with water</string>
+    <string name="wet3">Save upto 20% on your summer electricity bill with regular servicing</string>
+    <string name="installation">parts and wall modification charges extra</string>
+
+    <string name="gascharging1">Complete vacuuming and gas filing</string>
+    <string name="gascharging2">Partial gas refilling/top-up is not recommended</string>
+    <string name="gascharging3">Minor leakages will be fixed</string>
+    <string name="gascharging4">Leakage check with nitrogen is chargable separately</string>
+
+
+    <string name="windowaccost">How many window ACs need servicing?</string>
+    <string name="splitacccost">How many split ACs need servicing?</string>
+    <string name="windowacinstall">How many window ACs need installation?</string>
+    <string name="splitacinstall">How many split ACs need installation?</string>
+    <string name="windowacuninstall">How many window ACs need un-installation?</string>
+    <string name="splitacuninstall">How many split ACs need un-installation?</string>
+    <string name="gascharging">what is the tonnage of the AC requiring Gas Charging?</string>
+
+    <string name="carpentercost">Minimum booking amount of Rs 249 which includes inspection and 30 mins of service</string>
+    <string name="carpentercost2">Rs 249 includes inspection and work quotation </string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="beauty">Beauty &amp;Spa</string>
+    <string name="guest_costs_traditional">Traditional Design for guests(100rs-300rs per person)</string>
+    <string name="guest_costs_theme">Theme Design for guests(300rs-500rs per person)</string>
+    <string name="bride_costs_traditional">Traditional Design for bride(2000rs-4000rs)</string>
+    <string name="bride_costs_theme">Theme Design for bride(4000rs-7000rs)</string>
+    <string name="bg_costs_traditional">Traditional Design for bride(2000rs-4000rs) &amp; guests(100rs-300rs per person)</string>
+    <string name="bg_costs_theme">Theme Design for bride(2000rs-4000rs) &amp; guests(300rs-500rs per person)</string>
+
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_about_us">About US</string>
+    <string name="title_area_coverage">History</string>
+    <string name="title_for_corporate">About us</string>
+    <string name="title_contact_us">Contact Us</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="address">Mansopresk Private Limited\n545B, Flat No. 401,\nSriram Castle,\nBlock B Sriram Nagar,\nBotanical Gardens Road,\nKondapur,\nHyderabad. 500084</string>
+
+    <string name="corporate">Corporate services are activities that combine or consolidate certain enterprise-wide needed support services, provided based on specialized knowledge, best practices, and technology to serve internal (and sometimes external) customers and business partners. The term corporate services providers (CSPs) is also used.
+
+In the United Kingdom, the public audit agencies produced a report in May 2007 called "Value for Money in public sector corporate services". This provides performance indicators in five categories: Finance, Human Resources, Information and Communication Technology, Procurement, and Estates Management.
+    \n\nCompany incorporation is the process of forming a company corporation officially in the country of residence. It is also possible non-residents to set up a company: see offshore company. However, laws vary in all countries. International corporate service consultants specialise in dealing with incorporation in the country in question. Once application is successful, the company will receive a certificate of incorporation. Which provides valid existence of the company under the registered name given.</string>
+
+    <string name="about_us">The creative power that runs Mansopresk Private Limited is in the hearts of our highly talented work force. Each member of our team comes with extensive experience in application development for mobile and web-based platforms, creative design,2d design and testing. Professionalism, transparency, commitment, integrity: these are the four tenets that we worship at Mansopresk Private Limited. And we embed these beliefs into our projects as well, irrespective of how big or small they are. We face the challenges, ups and downs, simplicities and complexities of each of our projects with a never-give-up attitude</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_nav_main">NavMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_number">Mobile Number</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">or</string>
+
+    <string name="sign_up_label">Sign Up</string>
+    <string name="log_in_label">Log In</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="confirm_hint">Confirm Password</string>
+
+    <string name="text_male">Male</string>
+    <string name="text_female">Female</string>
+    <string name="title_activity_main4">Main4Activity</string>
+
+
+    <string name="text_website">Website</string>
+    <string name="text_apps">Apps</string>
+
+    <string name="text_web">STATIC WEBSITE - 5000/-</string>
+    <string name="text_dynamic_web">DYNAMIC WEBSITE - 10000/-</string>
+    <string name="text_E_COMMERCE_web">E-COMMERCE WEBSITE - 20000/-</string>
+
+    <string name="text_app">1. A simple Iphone and Android App Development (in Native) = $ 800 to $ 4,000</string>
+    <string name="text_app1">2. Database Iphone and Android App Development (in Native) = $ 5,000 to $ 10,000</string>
+    <string name="text_app2">3. A simple Iphone and Android App Development (in Native) = $ 8,000 to $ 50,000</string>
+
+    <string name="text_additional">Cost for Additional Functions</string>
+
+    <string name="text_purchase">1: Purchase additional Apps (in Native) = $ 800 to $ 1,200</string>
+    <string name="text_web_service">2: Web Services (in Native) = $ 500 to $ 700</string>
+    <string name="text_game">3: Game centre price (in Native) = $ 1,000</string>
+    <string name="text_complete">4: Complete capabilities cost (in Native) = $ 500 to $ 1,500</string>
+
+    <string-array name="TimeSlots">
+        <item>Select Time Slot</item>
+        <item>9am-4pm</item>
+        <item>6pm-10pm</item>
+
+    </string-array>
+
+
+</resources>

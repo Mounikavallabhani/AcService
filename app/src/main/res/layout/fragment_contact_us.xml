@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcredits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00283a"
+        android:gravity="top"
+        android:minHeight="50dp"
+        app:theme="@style/ToolbarStyle"
+        app:titleMarginTop="@dimen/margin_to_center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mansopresk"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"/></android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/contact_us"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/address_navigate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="25sp"
+        android:textColor="#00283a"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="#00283a"-->
+        <!--android:fontFamily="serif"-->
+        <!--android:text="@string/address"/>-->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="25sp"
+            android:textColor="#00283a"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#1a7eac"
+        android:fontFamily="serif"
+        android:text="+91 799 355 2864"
+        android:id="@+id/first_no"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#1a7eac"
+        android:fontFamily="serif"
+        android:text="+91 916 028 5374"
+        android:id="@+id/second_no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="25sp"
+            android:textColor="#00283a"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="20sp"
+        android:textColor="#1a7eac"
+        android:fontFamily="serif"
+        android:text="info@mansopresk.com"/>
+</LinearLayout>
+

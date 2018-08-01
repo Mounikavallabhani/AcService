@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/servbg"
+    tools:context="com.mansopresk.mansopresk01.acservice.CarServices">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcredits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00283a"
+        android:gravity="top"
+        android:minHeight="50dp"
+        app:theme="@style/ToolbarStyle"
+        app:titleMarginTop="@dimen/margin_to_center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mansopresk"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"/></android.support.v7.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RadioGroup
+
+        android:id="@+id/cargroup"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:buttonTint="@color/your_color"
+            android:layout_marginTop="25dp"
+            android:id="@+id/centralized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Car repair"
+            android:textSize="20dp">
+
+        </RadioButton>
+        <RadioButton
+            android:buttonTint="@color/your_color"
+            android:layout_marginTop="25dp"
+            android:id="@+id/split"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bike repair"
+
+
+            android:textSize="20dp"/></RadioGroup>
+
+    <TextView
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+       android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services1"
+        android:text="Painting"
+        android:drawableLeft="@drawable/bullet"/>
+    <TextView
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services2"
+        android:text="Water Serviceing"
+        android:drawableLeft="@drawable/bullet"/>
+    <TextView
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services3"
+        android:text="Check Electrical faults"
+        android:drawableLeft="@drawable/bullet"/>
+    <TextView
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services4"
+        android:text="Tyres Changeing"
+        android:drawableLeft="@drawable/bullet"/>
+    <TextView
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services5"
+        android:text="Brake problems"
+        android:drawableLeft="@drawable/bullet"/>
+    <TextView
+        android:drawablePadding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services6"
+        android:text="write your concern below.."
+        android:drawableLeft="@drawable/bullet"/>
+  <LinearLayout
+      android:id="@+id/carll"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:layout_margin="20dp"
+      android:orientation="vertical">
+      <TextView
+          android:textColor="#000"
+          android:textStyle="bold"
+          android:textSize="20dp"
+          android:layout_marginBottom="30dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Schedule your service"/>
+
+      <LinearLayout
+          android:id="@+id/calendarll"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <Button
+              android:id="@+id/calendarbtn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ic_arrow_drop_down_black_24dp"
+              />
+
+          <EditText
+              android:onClick="carcalender"
+              android:singleLine="true"
+              android:id="@+id/etcarcalender"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="mm/dd/yyyy"
+              android:editable="false"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      </LinearLayout>
+      <Spinner
+
+          android:singleLine="true"
+          android:id="@+id/spinnercar"
+          android:layout_width="200dp"
+          android:layout_marginLeft="30dp"
+          android:layout_height="wrap_content"
+          android:entries="@array/TimeSlots"
+          android:layout_marginBottom="20dp"
+          android:layout_marginTop="20dp">
+
+      </Spinner>
+  </LinearLayout>
+
+
+        <EditText
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:id="@+id/content"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectanglebox"
+            android:gravity="start"
+            android:hint="Leave your discription" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/carsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:text="submit"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
+
+
+
+
+

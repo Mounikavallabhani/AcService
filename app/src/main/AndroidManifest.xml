@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mansopresk.mansopresk01.acservice">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".startactivity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".startactivity.LoginActivity" />
+        <activity android:name=".startactivity.RegistrationActivity" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".acactivity.AcService" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".FinalActivity" />
+        <activity android:name=".carpenteractivity.CarpenterService" />
+        <activity android:name=".acactivity.ImmediateService" />
+        <activity android:name=".mehandiactivity.MehendiNeedActivity" />
+        <activity android:name=".mehandiactivity.MehendiCostsActivity" />
+        <activity android:name=".mehandiactivity.MehendiGuestsCountActivity" />
+        <activity android:name=".mehandiactivity.MehendiRequireForActivity" />
+        <activity android:name=".ScheduleService" />
+        <activity android:name=".mehandiactivity.MehandiHireActivity" />
+        <activity android:name=".cleaningactivity.Cleaning" />
+        <activity android:name=".plumbingactivity.Plumbing" />
+        <activity android:name=".electricalactivity.ElectricalWorks" />
+        <activity android:name=".caractivity.CarBikeRepair" />
+        <activity android:name=".caractivity.CarServices" />
+        <activity android:name=".electricalactivity.ElectricService" />
+        <activity android:name=".cleaningactivity.CleaningService" />
+        <activity android:name=".carpenteractivity.Carpenter" />
+        <activity android:name=".plumbingactivity.PlumbingService" />
+        <activity android:name=".packersactivity.PackersMovers" />
+        <activity android:name=".SoftwareActivity" />
+        <activity android:name=".AcCalnder" />
+        <activity android:name=".packersactivity.PackerMoversService"></activity>
+    </application>
+
+</manifest>

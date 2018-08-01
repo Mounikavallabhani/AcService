@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.mansopresk.mansopresk01.acservice.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Type of AC?"
+            android:textSize="30dp"
+            android:textColor="#000"
+           />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/actype1"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layoutshape">
+
+    <TextView
+
+        android:id="@+id/windowac"
+        android:layout_marginLeft="60dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Window AC"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:drawablePadding="30dp"
+        android:drawableRight="@drawable/arrow"
+
+
+       />
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/actype2"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutshape">
+
+        <TextView
+            android:id="@+id/splitac"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Split AC"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:drawablePadding="65dp"
+            android:drawableRight="@drawable/arrow"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/servbg"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarcredits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00283a"
+        android:gravity="top"
+        android:minHeight="50dp"
+        app:theme="@style/ToolbarStyle"
+        app:titleMarginTop="@dimen/margin_to_center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mansopresk"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/acrg"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_marginTop="25dp"
+        android:id="@+id/centralized"
+        android:buttonTint="@color/your_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Centralized"
+        android:checked="true"
+        android:textSize="20dp"/>
+        <RadioButton
+            android:layout_marginTop="25dp"
+            android:id="@+id/split"
+            android:buttonTint="@color/your_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Split"
+        android:textSize="20dp"/>
+    </RadioGroup>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="250dp">
+
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/acll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schedule your service"/>
+
+            <LinearLayout
+                android:id="@+id/calendarll"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/calendarbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                    />
+
+                <EditText
+                    android:onClick="carcalender"
+                    android:singleLine="true"
+                    android:id="@+id/accalender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="mm/dd/yyyy"
+                    android:editable="false"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+            <Spinner
+
+                android:singleLine="true"
+                android:id="@+id/spinnerac"
+                android:layout_width="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/TimeSlots"
+                android:layout_marginTop="5dp">
+
+            </Spinner>
+        </LinearLayout>
+        <EditText
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:id="@+id/acdesc"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectanglebox"
+            android:gravity="start"
+            android:hint="Leave your discription" />
+        <Button
+
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="#fff"
+        android:background="#000"
+        android:text="Submit"
+            android:layout_marginBottom="50dp"
+         />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
