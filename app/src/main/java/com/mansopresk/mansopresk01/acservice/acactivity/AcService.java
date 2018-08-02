@@ -70,4 +70,11 @@ public class AcService extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        Intent i=new Intent(getApplicationContext(),MainActivity.class);
+       // getApplicationContext().getSharedPreferences(ACPREFERENCES, 0).edit().clear().apply();
+        startActivity(i);
+
+    }
 }

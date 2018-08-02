@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.mansopresk.mansopresk01.acservice.MainActivity;
 import com.mansopresk.mansopresk01.acservice.R;
+import com.mansopresk.mansopresk01.acservice.acactivity.AcService;
 
 public class Carpenter extends AppCompatActivity {
 
@@ -71,5 +72,12 @@ public class Carpenter extends AppCompatActivity {
 
             }
         });
+    }
+    @Override
+    public void onBackPressed() {
+        Intent i=new Intent(getApplicationContext(),MainActivity.class);
+        //getApplicationContext().getSharedPreferences(ACPREFERENCES, 0).edit().clear().apply();
+        startActivity(i);
+
     }
 }

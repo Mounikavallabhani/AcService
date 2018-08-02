@@ -11,6 +11,7 @@ import android.widget.Button;
 import com.mansopresk.mansopresk01.acservice.AcCalnder;
 import com.mansopresk.mansopresk01.acservice.MainActivity;
 import com.mansopresk.mansopresk01.acservice.R;
+import com.mansopresk.mansopresk01.acservice.acactivity.AcService;
 
 public class Cleaning extends AppCompatActivity {
     Button cleaningimmediate, cleaningschedule;
@@ -64,6 +65,13 @@ public class Cleaning extends AppCompatActivity {
 
             }
         });
+    }
+    @Override
+    public void onBackPressed() {
+        Intent i=new Intent(getApplicationContext(),MainActivity.class);
+        //getApplicationContext().getSharedPreferences(ACPREFERENCES, 0).edit().clear().apply();
+        startActivity(i);
+
     }
 
     }

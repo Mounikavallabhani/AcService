@@ -198,7 +198,7 @@ public class CleaningService extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent i=new Intent(getApplicationContext(),CarBikeRepair.class);
+        Intent i=new Intent(getApplicationContext(),Cleaning.class);
         getApplicationContext().getSharedPreferences(CLEANINGMyPREFERENCES, 0).edit().clear().apply();
         startActivity(i);
 

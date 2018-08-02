@@ -18,7 +18,7 @@ import com.mansopresk.mansopresk01.acservice.fragments.AppsFragment;
 import com.mansopresk.mansopresk01.acservice.fragments.WebFragment;
 
 
-public class SoftwareActivity extends Activity {
+public class  SoftwareActivity extends Activity {
 
     Toolbar toolbar;
     RadioButton rb1, rb2;

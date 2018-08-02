@@ -61,6 +61,7 @@ public class PackersMovers extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent i2 = new Intent(getApplicationContext(),PackerMoversService.class);
+                    getApplicationContext().getSharedPreferences(PACKERSMyPREFERENCES, 0).edit().clear().apply();
                 startActivity(i2);
                 //finish();
             }
